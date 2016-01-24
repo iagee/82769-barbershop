@@ -4,55 +4,48 @@
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
   </head>
-  <body>
-      <header class="main-header">
-        <div class="layout-center-wrapper">
-         <nav class="main-navigation">
+  <body class="inner-body">
+<!-- Header -->
+  <header class="main-header">
+        <div class="container">
+            <a href="/index">
+             <img src="logo.png" width="111" height="24" alt="Барбершоп «Бородинский»"></a>
+        <nav class="main-navigation">
           <ul class="top-menu">
-            <li class="index-logo">
-                <img src="img/index-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
-            </li>
-            <li>
-              <a href="#">Информация</a>
-            </li>
-            <li>
-              <a href="#">Новости</a>
-            </li>
-            <li>
-              <a href="#">Прайс-лист</a>
-            </li>
-            <li>
-              <a href="#">Магазин</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Прайс-лист</a></li>
+            <li><a href="#" class="active">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
           </ul>
-     </nav>
+        </nav>
         <div class="user-block">
           <a class="login" href="#">Вход</a>
         </div>
       </div> 
-      </header>
-      <main>
-        <div class="layout-center-wrapper">
+</header>
+<!-- Main -->
+      <main class="container">
+            <div class="features-item">
             <h1 class="content-title">Набор для путешествий «Baxter of California»</h1>
             <ul class="breadcrumbs">
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">Магазин</a></li>
                 <li><a href="#">Средства для уходан</a></li>
-                <li><a href="#">Набор для путешествий «Baxter of California»</a></li>
+                <li class="active">Набор для путешествий «Baxter of California»</li>
             </ul>
-        <div class="blok-left"></div>
             <div class="blok-right">
-            <h3 class="cell-title-1">Есть в наличии</h3>
-            <h3 class="cell-text">Артикул: dexter-ae</h3>
-                <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+            <div>    
+            <p class="cell-title-1">Есть в наличии</p>
+            <p class="cell-text">Артикул: dexter-ae</p>
             </div>
+                <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+            
             <div class="good-buy">
               <div class="good-price">2900 руб.</div>
-              <div class="good-btn"><a href="#">Купить</a></div>
+              <a class="buy" href="#">Купить</a>
                 </div>
+            
         <h2 class="cell-title-2">В набор входят:</h2>
                     <ul class="block-list">
                         <li>Средство для умывания (50 мл)</li>
@@ -61,24 +54,22 @@
                         <li>Крем после бритья, шампунь (50 мл)</li>
                         <li>Удобная кожаная косметичка</li>
                     </ul>
-            <div id="gallery">
-	<dl>
-		<dt><img src="http://placehold.it/150x100"></dt>
-		<dd>Картинка номер 1</dd>
-	</dl>
-	<dl>
-		<dt><img src="http://placehold.it/150x100"></dt>
-		<dd>Картинка номер 2</dd>
-	</dl>
-	<dl>
-		<dt><img src="http://placehold.it/150x100"></dt>
-		<dd>Картинка номер 3</dd>
-	</dl>
-	<dl>
-		<dt><img src="http://placehold.it/150x100"></dt>
-		<dd>Картинка номер 4</dd>
-	</dl>
-</div>
+            </div>
+         <div id="gallery">
+	       <div>
+		     <img src="http://placehold.it/150x100">
+		     <alt>Картинка номер 1</alt>
+           </div>
+		     <img src="http://placehold.it/150x100">
+		     <alt>Картинка номер 2</alt>
+		     <img src="http://placehold.it/150x100">
+             <alt>Картинка номер 3</alt>
+		     <img src="http://placehold.it/150x100">
+		     <alt>Картинка номер 4</alt>
+        </div>
+      </div> 
+    </main>
+<!-- Footer -->
  <footer class="main-footer">
       <div class="container">
         <section class="footer-contacts">
