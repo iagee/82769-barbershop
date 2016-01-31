@@ -1,14 +1,25 @@
-.body { 
+body { 
   font-size: 14px;
   line-height: 24px;
   color: #000000;
-  font-weight: normal;
-  font-family: PT Sans Narrow Bold;
+  font-weight: bold;
+  font-family: "PT Sans Narrow", "Arial", "Helvetica", sans-serif;
 }
 h2 {
   font-size: 30px;
-  line-height: auto;
+  line-height: 36px;
   color: #000000;
   font-weight: bold;
-  font-family: PT Sans Narrow Bold;
+  font-family: "PT Sans Narrow", "Arial", "Helvetica", sans-serif;
 }
+.features-name {
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  font-weight: normal;
+  font-family: "PT Sans Narrow", "Arial", "Helvetica", sans-serif;
+}
+
+
+
+  
