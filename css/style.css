@@ -1,9 +1,13 @@
-body { 
+html,
+body {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
   font-weight: bold;
   font-family: "PT Sans Narrow", Arial, Helvetica, sans-serif;
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
 }
 h2 {
   font-size: 30px;
@@ -19,8 +23,148 @@ h2 {
   font-weight: normal;
   font-family: "PT Sans Narrow", Arial, Helvetica, sans-serif;
 }
-
-
-
-
-  
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header {
+  margin-bottom: 60px;
+}
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+.main-navigation-1 {
+  float: left;
+  width: 650px;
+  min-height: 70px;
+}
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+.features {
+  margin-bottom: 80px;
+}
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+.filter {
+  float: left;
+  width: 220px;
+  height: 594px;
+}
+.good-list {
+  float: right;
+  width: 700px;
+  font-size: 0px;
+}
+.paginator {
+  float: left;
+}
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+.logo {
+  float: left;
+  margin: 0px 10px;
+}
+.content-title {
+  width: 940px;
+  height: 30px;
+  margin-bottom: 34px;
+}
+.breadcrumbs {
+  width: 940px;
+  height: 14px;
+  margin-bottom: 60px;
+}
+.shop-catalog {
+  width: 940px;
+}
+.good {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  margin-right: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.good:nth-child(3n+0) {
+  margin-right: 0;
+}
+.gallery {
+  float: left;
+  width: 460px;
+  height: 672px;
+}
+.great-img {
+  float: left;
+}
+.small-img {
+  float: left;
+  margin-right: 20px;
+}
+.small-img:last-child {
+  margin-right: 0;
+}
+.content {
+  width: 940px;
+}
+.blok-right {
+  float: right;
+  width: 390px;
+}
